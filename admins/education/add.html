@@ -15,10 +15,7 @@ License: For each use you must have a valid license purchased only from above li
   <!--begin::Head-->
 
   <head>
-    <link
-      rel="stylesheet"
-      href="../../assets/css/style.bundle.css"
-    />
+    <link rel="stylesheet" href="../../assets/css/style.bundle.css" />
     <base href="../" />
     <title>VRoom</title>
     <meta charset="utf-8" />
@@ -81,6 +78,7 @@ License: For each use you must have a valid license purchased only from above li
   </head>
   <!--end::Head-->
   <!--begin::Body-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <body
     id="kt_app_body"
@@ -3052,10 +3050,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--begin:Menu item-->
                         <div class="menu-item">
                           <!--begin:Menu link-->
-                          <a
-                            class="menu-link"
-                            href="../../users/index.html"
-                          >
+                          <a class="menu-link" href="../../users/index.html">
                             <span class="menu-bullet">
                               <span class="bullet bullet-dot"></span>
                             </span>
@@ -3067,10 +3062,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--begin:Menu item-->
                         <div class="menu-item">
                           <!--begin:Menu link-->
-                          <a
-                            class="menu-link"
-                            href="../../admins/index.html"
-                          >
+                          <a class="menu-link" href="../../admins/index.html">
                             <span class="menu-bullet">
                               <span class="bullet bullet-dot"></span>
                             </span>
@@ -3485,9 +3477,7 @@ License: For each use you must have a valid license purchased only from above li
                           style="padding: 0 !important"
                         >
                           <div class="row g-7">
-                            <div
-                              class="d-flex justify-content-between"
-                            >
+                            <div class="d-flex justify-content-between">
                               <div class="d-flex align-items-center">
                                 Create Education
                               </div>
@@ -3546,7 +3536,7 @@ License: For each use you must have a valid license purchased only from above li
                     type="text/css"
                   />
 
-                  <div class="card-body pt-5" style="padding: 15px;">
+                  <div class="card-body pt-5" style="padding: 15px">
                     <div class="card-header">
                       <h3 class="card-title">Add</h3>
                     </div>
@@ -3735,8 +3725,6 @@ License: For each use you must have a valid license purchased only from above li
                                         data-provide="datepicker"
                                       >
                                         <input
-
-
                                           type="date"
                                           class="form-control date-input input-date"
                                           placeholder="select date"
@@ -3951,7 +3939,10 @@ License: For each use you must have a valid license purchased only from above li
                                       class="font-16 form-label font-bold-700"
                                       >Educational image</label
                                     >
-                                    <div class="upload-btn-wrapper" id="openModal">
+                                    <div
+                                      class="upload-btn-wrapper"
+                                      id="openModal"
+                                    >
                                       <input
                                         id="file-1"
                                         class="inputfile inputfile-1 d-none"
@@ -3968,7 +3959,9 @@ License: For each use you must have a valid license purchased only from above li
                                           or<br />
                                           Browse file
                                         </span>
-                                        <img src="../../SystemEducation/assets/media/imgs/upload.svg" />
+                                        <img
+                                          src="../../SystemEducation/assets/media/imgs/upload.svg"
+                                        />
                                       </label>
                                     </div>
                                   </div>
@@ -3998,7 +3991,9 @@ License: For each use you must have a valid license purchased only from above li
                                           class="d-flex align-items-center font-12 t-b-gray-1 m-0 text-black"
                                           >Upload file
                                         </span>
-                                        <img src="../../SystemEducation/assets/media/imgs/upload.svg" />
+                                        <img
+                                          src="../../SystemEducation/assets/media/imgs/upload.svg"
+                                        />
                                       </label>
                                     </div>
                                   </div>
@@ -4007,9 +4002,7 @@ License: For each use you must have a valid license purchased only from above li
                             </div>
                           </div>
                           <div class="d-flex justify-content-end my-4">
-                            <button class="btn font-12 save-btn"
-                            
-                            >
+                            <button class="btn font-12 save-btn">
                               Save data
                             </button>
                             <button class="btn font-12 delete-btn">
@@ -10837,198 +10830,137 @@ License: For each use you must have a valid license purchased only from above li
         </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
 
-
-    <div class="modal fade create-edu" id="exampleModalCenter" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header d-flex justify-content-end">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body d-flex flex-wrap">
-          <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4" data-dismiss="modal" aria-label="Close">
-              <img src="../../SystemEducation/assets/media/imgs/upload.svg" onclick="getImgSrc(this)"/>
+    <div
+      class="modal fade create-edu"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header d-flex justify-content-end">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex flex-wrap">
+            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/upload.svg"
+                onclick="getImgSrc(this)"
+              />
             </div>
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4" data-dismiss="modal" aria-label="Close" onclick="getVideoSrc(this)">
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="getVideoSrc(this)"
+            >
               <video controls>
-                <source src="../../SystemEducation/assets/media/imgs/video.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
+                <source
+                  src="../../SystemEducation/assets/media/imgs/video.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
               </video>
             </div>
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close">
-              <img src="../../SystemEducation/assets/media/imgs/signature.png" onclick="getImgSrc(this)"/>
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/signature.png"
+                onclick="getImgSrc(this)"
+              />
             </div>
-          <!-- </div> -->
-          <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close">
-              <img src="../../SystemEducation/assets/media/imgs/dolar.svg" onclick="getImgSrc(this)" />
+            <!-- </div> -->
+            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/dolar.svg"
+                onclick="getImgSrc(this)"
+              />
             </div>
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close" onclick="getVideoSrc(this)">
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="getVideoSrc(this)"
+            >
               <video controls>
-                <source src="../../SystemEducation/assets/media/imgs/video.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
+                <source
+                  src="../../SystemEducation/assets/media/imgs/video.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
               </video>
             </div>
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close">
-              <img src="../../SystemEducation/assets/media/imgs/picture.svg" onclick="getImgSrc(this)" />
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/picture.svg"
+                onclick="getImgSrc(this)"
+              />
             </div>
-          <!-- </div> -->
-          <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close">
-              <img src="../../SystemEducation/assets/media/imgs/picture.svg" onclick="getImgSrc(this)" />
+            <!-- </div> -->
+            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/picture.svg"
+                onclick="getImgSrc(this)"
+              />
             </div>
-            <div class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"  data-dismiss="modal" aria-label="Close" onclick="getVideoSrc(this)">
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              aria-label="Close"
+              onclick="getVideoSrc(this)"
+            >
               <video controls>
-                <source src="../../SystemEducation/assets/media/imgs/video.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
+                <source
+                  src="../../SystemEducation/assets/media/imgs/video.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
               </video>
             </div>
-          <!-- </div> -->
+            <!-- </div> -->
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn colse-footer" data-dismiss="modal">
+              Close
+            </button>
+          </div>
         </div>
-        <div class="modal-footer d-flex justify-content-center">
-          <button type="button" class="btn colse-footer"
-            data-dismiss="modal">Close</button>
-        </div>
-        </div>
-                    
       </div>
-  </div>
+    </div>
 
-<script>
-  $(document).ready(function(){
-    $('#openModal').click(function(){
-      $('#exampleModalCenter').modal('show');
-    });
-
-    $('.close, .close-footer').click(function(){
-      $('#exampleModalCenter').modal('hide');
-    });
-
-    $('.container-img').click(function(){
-      $('#exampleModalCenter').modal('hide');
-    });
-  });// toogle navbar
-document.querySelectorAll('.dropdown-toggle').forEach(item => {
-  item.addEventListener('click', event => {
- 
-    if(event.target.classList.contains('dropdown-toggle') ){
-      event.target.classList.toggle('toggle-change');
-    }
-    else if(event.target.parentElement.classList.contains('dropdown-toggle')){
-      event.target.parentElement.classList.toggle('toggle-change');
-    }
-  })
-});
-
-
-// loading
-// setTimeout(function() {
-//   document.getElementById("loading-page").className += "loaded";
-//   document.getElementById("loader").className += "opzero";
-//   document.getElementById("lastray").className += " finalray";
-//   document.body.className += "whitebk";
-// },500);
-
-
-// toggle
-// 
-function show_hide(show, hide) {
-  var x = document.getElementById(show);
-  var y = document.getElementById(hide);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.display = "none";
-  } 
-  else
-  {
-    x.style.display = "none";
-    y.style.display = "block";
-  }
-}
-// function show_hide_2(show, hide) {
-// var x = document.getElementById(show);
-//   if (x.style.display === "none") {
-//     x.style.display = "flex";
-//   } else {
-//     x.style.display = "none";
-//   }
-//   var y = document.getElementById(hide);
-//   if (y.style.display === "flex") {
-//     y.style.display = "none";
-//   } else {
-//     y.style.display = "flex";
-//   }
-// }
-
-
-
-function getImgSrc(param){
-  $("#upload span").empty()
-  var imgSrc = $(param).attr("src");
-  $("#upload img").attr("src",imgSrc);
-  $("#upload img").attr("class",'upload');
-  var img_name = imgSrc.split('/')[imgSrc.split('/').length-1]
-  $("#upload span").append(`<span>${img_name}</span>`)
-  $("#image_name").attr('value', img_name)
-  // console.log(imgSrc);
-  };
-
-function getVideoSrc(param){
-  $("#upload span").empty()
-  var videoSrc = $(param).find('source').attr('src');
-  $("#upload img").attr("src",'../../images/film-solid.svg');
-  $("#upload img").attr("class",'upload');
-  var img_name = videoSrc.split('/')[videoSrc.split('/').length-1]
-  $("#upload span").append(`<span>${img_name}</span>`)
-  $("#image_name").attr('value', img_name)
-
-  // console.log(videoSrc);
-  };
-
-function getImgSrc1(param){
-  $("#upload1 span").empty()
-  var imgSrc = $(param).attr("src");
-  $("#upload1 img").attr("src",imgSrc);
-  $("#upload1 img").attr("class",'upload');
-  var img_name = imgSrc.split('/')[imgSrc.split('/').length-1]
-  $("#upload1 span").append(`<span>${img_name}</span>`)
-  // console.log(imgSrc);
-  };
-
-function getVideoSrc1(param){
-  $("#upload1 span").empty()
-  var videoSrc = $(param).find('source').attr('src');
-  $("#upload1 img").attr("src",'../../images/film-solid.svg');
-  $("#upload1 img").attr("class",'upload');
-  var img_name = videoSrc.split('/')[videoSrc.split('/').length-1]
-  $("#upload1 span").append(`<span>${img_name}</span>`)
-  // console.log(videoSrc);
-  };
-
-  // function check_none(param){
-  //   if($(param).hasClass( "active"))
-  //   {
-  //     $( "#list" ).attr('class','d-none')
-  //     $( "#navbarEdu" ).attr('class','col-12')
-  //   }
-  // };
-  // function check_show(param){
-  //   if($(param).hasClass( "active"))
-  //   {
-  //     $( "#list" ).attr('class','d-flex col-md-4 col-lg-3 col-lg-3 mb-4 p-0 px-md-4 pl-0 m-t-2')
-  //     $( "#navbarEdu" ).attr('class','col-12 col-md-8 col-lg-9')
-  //   }
-  // };
-
-  
-</script>
+    <script src="../../SystemEducation/assets/js/education/eduction.js"></script>
 
     <!--end::Modal - New Address-->
   </body>
