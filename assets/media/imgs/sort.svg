@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9.082" height="15.398" viewBox="0 0 9.082 15.398">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M8.888,4.955a.631.631,0,0,1-.908,0L4.541,1.544,1.1,4.955a.631.631,0,0,1-.908,0,.619.619,0,0,1,0-.9L4.087.193A.631.631,0,0,1,5,.193L8.888,4.054A.619.619,0,0,1,8.888,4.955Z" transform="translate(0 0)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask-2" data-name="Mask" d="M8.888,1.094,5,4.955a.631.631,0,0,1-.908,0L.195,1.094a.619.619,0,0,1,0-.9.631.631,0,0,1,.908,0L4.541,3.6,7.979.193a.631.631,0,0,1,.908,0A.619.619,0,0,1,8.888,1.094Z"/>
+    </clipPath>
+  </defs>
+  <g id="Group_271" data-name="Group 271" transform="translate(-220.613 -316.067)">
+    <g id="icon" transform="translate(220.613 316.067)">
+      <g id="Group_219" data-name="Group 219" transform="translate(0 0)">
+        <path id="Mask-3" data-name="Mask" d="M8.888,4.955a.631.631,0,0,1-.908,0L4.541,1.544,1.1,4.955a.631.631,0,0,1-.908,0,.619.619,0,0,1,0-.9L4.087.193A.631.631,0,0,1,5,.193L8.888,4.054A.619.619,0,0,1,8.888,4.955Z" transform="translate(0 0)"/>
+        <g id="Mask_Group_219" data-name="Mask Group 219" clip-path="url(#clip-path)">
+          <g id="Icon_Color" data-name="Icon Color" transform="translate(-3.244 -5.148)">
+            <rect id="_Icon_Color" data-name="🎨 Icon Color" width="15.57" height="15.445" fill="#5e5873"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="icon-2" data-name="icon" transform="translate(220.613 326.317)">
+      <g id="Group_222" data-name="Group 222" transform="translate(0 0)">
+        <path id="Mask-4" data-name="Mask" d="M8.888,1.094,5,4.955a.631.631,0,0,1-.908,0L.195,1.094a.619.619,0,0,1,0-.9.631.631,0,0,1,.908,0L4.541,3.6,7.979.193a.631.631,0,0,1,.908,0A.619.619,0,0,1,8.888,1.094Z"/>
+        <g id="Mask_Group_222" data-name="Mask Group 222" clip-path="url(#clip-path-2)">
+          <g id="Icon_Color-2" data-name="Icon Color" transform="translate(-3.244 -5.148)">
+            <rect id="_Icon_Color-2" data-name="🎨 Icon Color" width="15.57" height="15.445" fill="#babfc7"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
