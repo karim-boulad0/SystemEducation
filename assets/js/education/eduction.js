@@ -192,3 +192,16 @@ function getVideoSrc1(param){
 
 
 // 
+function updateFileName() {
+  var input = document.getElementById('file-2');
+  var span = document.getElementById('file-name-display');
+  var fileName = '';
+
+  if (input.files.length > 1) {
+    fileName = input.getAttribute('data-multiple-caption').replace('{count}', input.files.length);
+  } else {
+    fileName = input.files[0].name;
+  }
+
+  span.textContent = fileName || 'Upload file';
+}

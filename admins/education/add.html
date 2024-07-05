@@ -3081,7 +3081,7 @@ License: For each use you must have a valid license purchased only from above li
                     <form class="form-add-course">
                        <div class="d-flex justify-content-between mb-3">
                         <div class="d-flex align-items-center">
-                          Create Education
+                         <h4> Create Education</h4>
                         </div>
                         <div class="btn btn-primary">Add Course / Exam</div>
                       </div>
@@ -3134,7 +3134,7 @@ License: For each use you must have a valid license purchased only from above li
                                 checked
                               />
                               <label
-                                class="font-12 form-check-label d-flex align-items-center h-25px"
+                                class="font-12 form-check-label  h-25px"
                                 for="flexCheckChecked"
                               >
                                 the participants in this training must be able
@@ -3204,8 +3204,8 @@ License: For each use you must have a valid license purchased only from above li
                                     class="form-control form-control-solid"
                                   />
                                   <span
-                                    class="input-group-btn"
-                                    style="background-color: #04c !important"
+                                    class="input-group-btn bg-primary"
+                                    
                                   >
                                     <button
                                       class="btn default date-set"
@@ -3317,8 +3317,8 @@ License: For each use you must have a valid license purchased only from above li
                                       class="form-control form-control-solid"
                                     />
                                     <span
-                                      class="input-group-btn"
-                                      style="background-color: #04c !important"
+                                      class="input-group-btn bg-primary"
+                                      
                                     >
                                       <button
                                         class="btn default date-set"
@@ -3523,10 +3523,8 @@ License: For each use you must have a valid license purchased only from above li
                                             class="form-control form-control-solid"
                                           />
                                           <span
-                                            class="input-group-btn"
-                                            style="
-                                              background-color: #04c !important;
-                                            "
+                                            class="input-group-btn bg-primary"
+                                    
                                           >
                                             <button
                                               class="btn default date-set"
@@ -3658,20 +3656,25 @@ License: For each use you must have a valid license purchased only from above li
                                         class="inputfile inputfile-1"
                                         data-multiple-caption="{count} files selected"
                                         multiple
+                                        onchange="updateFileName()"
                                       />
                                       <label
                                         for="file-2"
                                         class="btn d-flex align-items-center justify-content-between m-0 w-100 flex-column-reverse btn-file"
                                       >
                                         <span
+                                          id="file-name-display"
                                           class="d-flex align-items-center font-12 t-b-gray-1 m-0 "
-                                          >Upload file
+                                        >
+                                          Upload file
                                         </span>
                                         <img
                                           src="../../SystemEducation/assets/media/imgs/upload.svg"
                                         />
                                       </label>
                                     </div>
+                                
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -10531,32 +10534,32 @@ License: For each use you must have a valid license purchased only from above li
             <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
+              data-dismiss="modal"   id="img-card" 
               aria-label="Close"
             >
               <img
                 src="../../SystemEducation/assets/media/imgs/upload.svg"
-                onclick="getImgSrc(this)"
+                onclick="getImgSrc(this)" id="main-image"
               />
             </div>
             <div
             class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-            data-dismiss="modal"
+            data-dismiss="modal"   id="img-card" 
             aria-label="Close"
           >
             <img
               src="../../SystemEducation/assets/media/imgs/upload.svg"
-              onclick="getImgSrc(this)"
+              onclick="getImgSrc(this)" id="main-image"
             />
           </div>
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
+              data-dismiss="modal"   id="img-card" 
               aria-label="Close"
             >
               <img
                 src="../../SystemEducation/assets/media/imgs/signature.png"
-                onclick="getImgSrc(this)"
+                onclick="getImgSrc(this)" id="main-image"
               />
             </div>
             <!-- </div> -->
@@ -10564,31 +10567,32 @@ License: For each use you must have a valid license purchased only from above li
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
+                id="img-card" 
               aria-label="Close"
             >
               <img
                 src="../../SystemEducation/assets/media/imgs/dolar.svg"
-                onclick="getImgSrc(this)"
+                onclick="getImgSrc(this)" id="main-image"
               />
             </div>
             <div
             class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-            data-dismiss="modal"
+            data-dismiss="modal"   id="img-card" 
             aria-label="Close"
           >
             <img
               src="../../SystemEducation/assets/media/imgs/upload.svg"
-              onclick="getImgSrc(this)"
+              onclick="getImgSrc(this)" id="main-image"
             />
           </div>
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
+              data-dismiss="modal"   id="img-card" 
               aria-label="Close"
             >
               <img
                 src="../../SystemEducation/assets/media/imgs/picture.svg"
-                onclick="getImgSrc(this)"
+                onclick="getImgSrc(this)" id="main-image"
               />
             </div>
             <!-- </div> -->
@@ -10596,31 +10600,33 @@ License: For each use you must have a valid license purchased only from above li
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
-              aria-label="Close"
+              aria-label="Close"   id="img-card" 
             >
               <img
                 src="../../SystemEducation/assets/media/imgs/picture.svg"
-                onclick="getImgSrc(this)"
+                onclick="getImgSrc(this)" id="main-image"
               />
             </div>
             <div
             class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
             data-dismiss="modal"
-            aria-label="Close"
+            aria-label="Close"    id="img-card"             
+
           >
             <img
               src="../../SystemEducation/assets/media/imgs/upload.svg"
-              onclick="getImgSrc(this)"
+              onclick="getImgSrc(this)" id="main-image"
             />
           </div>
             <div
             class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-            data-dismiss="modal"
+            id="img-card"            data-dismiss="modal"
             aria-label="Close"
           >
             <img
               src="../../SystemEducation/assets/media/imgs/picture.svg"
               onclick="getImgSrc(this)"
+              id="main-image"
             />
           </div>
             <!-- </div> -->
@@ -10642,3 +10648,4 @@ License: For each use you must have a valid license purchased only from above li
   </body>
   <!--end::Body-->
 </html>
+
