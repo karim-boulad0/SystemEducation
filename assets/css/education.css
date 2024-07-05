@@ -91,7 +91,6 @@
 
   .upload-btn-wrapper,
   .upload-btn-wrapper-row {
-    background: #fff;
     border: 1px dashed #707070;
     display: flex;
     flex-direction: column;
@@ -252,7 +251,6 @@
   border-radius: 6px;
   padding: .5rem 3rem;
   height: 35px;
-  color: #fff;
   margin-right: 15px;
 }
 
@@ -261,3 +259,33 @@
   padding: .5rem 1.5rem;
   background-color: #F31937;
 }
+.select2-search__field{
+  display: none !important;
+}                               .form-check-input {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #000; /* Black border for the checkbox */
+  border-radius: 3px; /* Rounded corners */
+  outline: none;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #000; /* Black background when checked */
+}
+
+    .active-link {
+        background: linear-gradient(to right, #011c2c, #033a5a, #0a5b89, #248cc9) !important;
+        border-radius: 17px;
+    }
+
+
+
+    /* 
+    
+    */
+
+    

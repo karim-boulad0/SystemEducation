@@ -79,7 +79,11 @@ License: For each use you must have a valid license purchased only from above li
   <!--end::Head-->
   <!--begin::Body-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   <body
     id="kt_app_body"
     data-kt-app-layout="dark-sidebar"
@@ -1001,7 +1005,7 @@ License: For each use you must have a valid license purchased only from above li
                         <div class="mb-5">
                           <input
                             type="text"
-                            class="form-control form-control-sm form-control-solid"
+                            class="form-control form-control-solid form-control-sm form-control-solid"
                             placeholder="Contains the word"
                             name="query"
                           />
@@ -1077,7 +1081,7 @@ License: For each use you must have a valid license purchased only from above li
                           <input
                             type="text"
                             name="assignedto"
-                            class="form-control form-control-sm form-control-solid"
+                            class="form-control form-control-solid form-control-sm form-control-solid"
                             placeholder="Assigned to"
                             value=""
                           />
@@ -1088,7 +1092,7 @@ License: For each use you must have a valid license purchased only from above li
                           <input
                             type="text"
                             name="collaborators"
-                            class="form-control form-control-sm form-control-solid"
+                            class="form-control form-control-solid form-control-sm form-control-solid"
                             placeholder="Collaborators"
                             value=""
                           />
@@ -1155,7 +1159,7 @@ License: For each use you must have a valid license purchased only from above li
                             <input
                               type="number"
                               name="date_number"
-                              class="form-control form-control-sm form-control-solid"
+                              class="form-control form-control-solid form-control-sm form-control-solid"
                               placeholder="Lenght"
                               value=""
                             />
@@ -2573,115 +2577,11 @@ License: For each use you must have a valid license purchased only from above li
                     </div>
                     <!--end::Menu item-->
                     <!--begin::Menu item-->
-                    <div class="menu-item px-5">
-                      <a
-                        href="../../demo1/dist/apps/projects/list.html"
-                        class="menu-link px-5"
-                      >
-                        <span class="menu-text">My Projects</span>
-                        <span class="menu-badge">
-                          <span
-                            class="badge badge-light-danger badge-circle fw-bold fs-7"
-                            >3</span
-                          >
-                        </span>
-                      </a>
-                    </div>
+             
                     <!--end::Menu item-->
                     <!--begin::Menu item-->
-                    <div
-                      class="menu-item px-5"
-                      data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-                      data-kt-menu-placement="left-start"
-                      data-kt-menu-offset="-15px, 0"
-                    >
-                      <a href="#" class="menu-link px-5">
-                        <span class="menu-title">My Subscription</span>
-                        <span class="menu-arrow"></span>
-                      </a>
-                      <!--begin::Menu sub-->
-                      <div class="menu-sub menu-sub-dropdown w-175px py-4">
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                          <a
-                            href="../../demo1/dist/account/referrals.html"
-                            class="menu-link px-5"
-                            >Referrals</a
-                          >
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                          <a
-                            href="../../demo1/dist/account/billing.html"
-                            class="menu-link px-5"
-                            >Billing</a
-                          >
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                          <a
-                            href="../../demo1/dist/account/statements.html"
-                            class="menu-link px-5"
-                            >Payments</a
-                          >
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                          <a
-                            href="../../demo1/dist/account/statements.html"
-                            class="menu-link d-flex flex-stack px-5"
-                            >Statements
-                            <span
-                              class="ms-2 lh-0"
-                              data-bs-toggle="tooltip"
-                              title="View your statements"
-                            >
-                              <i class="ki-duotone ki-information-5 fs-5">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                                <span class="path3"></span>
-                              </i> </span
-                          ></a>
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu separator-->
-                        <div class="separator my-2"></div>
-                        <!--end::Menu separator-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                          <div class="menu-content px-3">
-                            <label
-                              class="form-check form-switch form-check-custom form-check-solid"
-                            >
-                              <input
-                                class="form-check-input w-30px h-20px"
-                                type="checkbox"
-                                value="1"
-                                checked="checked"
-                                name="notifications"
-                              />
-                              <span class="form-check-label text-muted fs-7"
-                                >Notifications</span
-                              >
-                            </label>
-                          </div>
-                        </div>
-                        <!--end::Menu item-->
-                      </div>
-                      <!--end::Menu sub-->
-                    </div>
-                    <!--end::Menu item-->
                     <!--begin::Menu item-->
-                    <div class="menu-item px-5">
-                      <a
-                        href="../../demo1/dist/account/statements.html"
-                        class="menu-link px-5"
-                        >My Statements</a
-                      >
-                    </div>
+         
                     <!--end::Menu item-->
                     <!--begin::Menu separator-->
                     <div class="separator my-2"></div>
@@ -2899,13 +2799,7 @@ License: For each use you must have a valid license purchased only from above li
                     </div>
                     <!--end::Menu item-->
                     <!--begin::Menu item-->
-                    <div class="menu-item px-5 my-1">
-                      <a
-                        href="../../demo1/dist/account/settings.html"
-                        class="menu-link px-5"
-                        >Account Settings</a
-                      >
-                    </div>
+              
                     <!--end::Menu item-->
                     <!--begin::Menu item-->
                     <div class="menu-item px-5">
@@ -3032,287 +2926,28 @@ License: For each use you must have a valid license purchased only from above li
                       class="menu-item menu-accordion"
                     >
                       <!--begin:Menu link-->
-                      <span class="menu-link">
-                        <span class="menu-icon">
-                          <i class="ki-duotone ki-element-11 fs-2">
-                            <span class="path1"></span>
-                            <span class="path2"></span>
-                            <span class="path3"></span>
-                            <span class="path4"></span>
-                          </i>
-                        </span>
-                        <span class="menu-title">Dashboards</span>
-                        <span class="menu-arrow"></span>
-                      </span>
+
                       <!--end:Menu link-->
                       <!--begin:Menu sub-->
-                      <div class="menu-sub menu-sub-accordion">
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                          <!--begin:Menu link-->
-                          <a
-                            class="menu-link"
-                            href="../SystemEducation/users/index.html"
-                          >
-                            <span class="menu-bullet">
-                              <span class="bullet bullet-dot"></span>
-                            </span>
-                            <span class="menu-title">User Dashboard</span>
-                          </a>
-                          <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                          <!--begin:Menu link-->
-                          <a
-                            class="menu-link"
-                            href="../SystemEducation/admins/index.html"
-                          >
-                            <span class="menu-bullet">
-                              <span class="bullet bullet-dot"></span>
-                            </span>
-                            <span class="menu-title">Admin Dashboard</span>
-                          </a>
-                          <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-
-                        <!--end:Menu item-->
-                        <div
-                          class="menu-inner flex-column collapse"
-                          id="kt_app_sidebar_menu_dashboards_collapse"
-                        >
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/bidding.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Bidding</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/pos.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">POS System</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/call-center.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Call Center</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/logistics.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Logistics</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/website-analytics.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Website Analytics</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/finance-performance.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title"
-                                >Finance Performance</span
-                              >
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/store-analytics.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Store Analytics</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/social.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Social</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/delivery.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Delivery</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/crypto.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Crypto</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/school.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">School</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/dashboards/podcast.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Podcast</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                          <!--begin:Menu item-->
-                          <div class="menu-item">
-                            <!--begin:Menu link-->
-                            <a
-                              class="menu-link"
-                              href="../../demo1/dist/landing.html"
-                            >
-                              <span class="menu-bullet">
-                                <span class="bullet bullet-dot"></span>
-                              </span>
-                              <span class="menu-title">Landing</span>
-                            </a>
-                            <!--end:Menu link-->
-                          </div>
-                          <!--end:Menu item-->
-                        </div>
-                        <div class="menu-item">
-                          <div class="menu-content">
-                            <a
-                              class="btn btn-flex btn-color-primary d-flex flex-stack fs-base p-0 ms-2 mb-2 toggle collapsible collapsed"
-                              data-bs-toggle="collapse"
-                              href="#kt_app_sidebar_menu_dashboards_collapse"
-                              data-kt-toggle-text="Show Less"
-                            >
-                              <span data-kt-toggle-text-target="true"
-                                >Show 12 More</span
-                              >
-                              <i
-                                class="ki-duotone ki-minus-square toggle-on fs-2 me-0"
-                              >
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                              </i>
-                              <i
-                                class="ki-duotone ki-plus-square toggle-off fs-2 me-0"
-                              >
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                                <span class="path3"></span>
-                              </i>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                      <a
+                        href="../../SystemEducation/admins/index.html"
+                        id="dashboard-link"
+                        class="menu-item menu-accordion"
+                      >
+                        <!--begin:Menu link-->
+                        <span class="menu-link">
+                          <span class="menu-icon">
+                            <i class="ki-duotone ki-element-11 fs-2">
+                              <span class="path1"></span>
+                              <span class="path2"></span>
+                              <span class="path3"></span>
+                              <span class="path4"></span>
+                            </i>
+                          </span>
+                          <span class="menu-title">Dashboard</span>
+                        </span>
+                        <!--end:Menu link-->
+                      </a>
                       <!--end:Menu sub-->
                     </div>
                     <!--end:Menu item-->
@@ -3334,7 +2969,7 @@ License: For each use you must have a valid license purchased only from above li
                       class="menu-item menu-accordion"
                     >
                       <!--begin:Menu link-->
-                      <span class="menu-link">
+                      <!-- <span class="menu-link">
                         <span class="menu-icon">
                           <i class="ki-duotone ki-address-book fs-2">
                             <span class="path1"></span>
@@ -3344,42 +2979,28 @@ License: For each use you must have a valid license purchased only from above li
                         </span>
                         <span class="menu-title">Educations</span>
                         <span class="menu-arrow"></span>
-                      </span>
+                      </span> -->
+
+                      <a
+                        href="../../SystemEducation/admins/education/add.html"
+                        id="Educations-link"
+                        class="menu-item menu-accordion"
+                      >
+                        <!--begin:Menu link-->
+                        <span class="menu-link">
+                          <span class="menu-icon">
+                            <i class="ki-duotone ki-teacher fs-2">
+                              <span class="path1"></span>
+                              <span class="path2"></span>
+                            </i>
+                          </span>
+                          <span class="menu-title">Educations</span>
+                        </span>
+                        <!--end:Menu link-->
+                      </a>
                       <!--end:Menu link-->
                       <!--begin:Menu sub-->
-                      <div class="menu-sub menu-sub-accordion">
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                          <!--begin:Menu link-->
-                          <a class="menu-link" href="#">
-                            <span class="menu-bullet">
-                              <span class="bullet bullet-dot"></span>
-                            </span>
-                            <span class="menu-title">All Educations</span>
-                          </a>
-                          <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
-                        <div class="menu-item">
-                          <!--begin:Menu link-->
-                          <a
-                            class="menu-link"
-                            href="../SystemEducation/admins/education/add.html"
-                          >
-                            <span class="menu-bullet">
-                              <span class="bullet bullet-dot"></span>
-                            </span>
-                            <span class="menu-title">Add Education</span>
-                          </a>
-                          <!--end:Menu link-->
-                        </div>
-                        <!--end:Menu item-->
-                        <!--begin:Menu item-->
 
-                        <!--end:Menu item-->
-                      </div>
                       <!--end:Menu sub-->
                     </div>
                     <!--end:Menu item-->
@@ -3420,56 +3041,6 @@ License: For each use you must have a valid license purchased only from above li
           <!--end::Sidebar-->
           <!--begin::Main-->
 
-          <div
-            class="app-main flex-column flex-row-fluid"
-            style="margin-top: 50px"
-            id="kt_app_main"
-          >
-            <div id="kt_app_content" class="app-content flex-column-fluid">
-              <div
-                id="kt_app_content_container"
-                class="app-container container-fluid"
-              >
-                <!--begin::Contacts App- Edit Contact-->
-                <div class="row g-7">
-                  <div class="col-xl-12">
-                    <!--begin::Contacts-->
-                    <div class="card card-flush h-lg-100" id="kt_contacts_main">
-                      <!--begin::Card header-->
-
-                      <!--end::Card header-->
-                      <!--begin::Card body-->
-                      <div class="card-body pt-5">
-                        <!--begin::Form-->
-                        <div
-                          id="kt_app_content_containers"
-                          class="app-container container-fluid"
-                          style="padding: 0 !important"
-                        >
-                          <div class="row g-7">
-                            <div class="d-flex justify-content-between">
-                              <div class="d-flex align-items-center">
-                                Create Education
-                              </div>
-                              <div class="btn btn-primary">
-                                Add Course / Exam
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!--end::Content container-->
-              </div>
-              <!--end::Content-->
-            </div>
-
-            <!--end::Content-->
-          </div>
-
           <!-- <div class="container py-2 py-lg-4 subheader-solid" id="kt_subheader">
             <div class="container subHeader  py-2 py-lg-4  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap" 
              >
@@ -3507,12 +3078,19 @@ License: For each use you must have a valid license purchased only from above li
                   />
 
                   <div class="card-body pt-5" style="padding: 15px">
-                    <div class="card-header">
-                      <h3 class="card-title">Add</h3>
-                    </div>
                     <form class="form-add-course">
-                      <div class="row justify-content-between container-form">
-                        <div class="col-sm-12 col-lg-12 left-side">
+                       <div class="d-flex justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+                          Create Education
+                        </div>
+                        <div class="btn btn-primary">Add Course / Exam</div>
+                      </div>
+                      <hr style="color: inherit;">
+                      <div
+                        class="row justify-content-between container-form"
+                        style="margin-top: 40px !important"
+                      >
+                        <div class="col-sm-12 col-lg-6 left-side">
                           <div>
                             <div class="mb-3 d-flex flex-column">
                               <label class="font-16 form-label font-bold-700"
@@ -3520,32 +3098,34 @@ License: For each use you must have a valid license purchased only from above li
                               >
                               <input
                                 type="text"
-                                class="form-control"
+                                class="form-control form-control-solid"
                                 placeholder="Enter the name of education"
                               />
                             </div>
+
+                            <!-- <div class="mb-3 d-flex flex-column">
+                              <label class="font-16 form-label font-bold-700"
+                                >Description For Education Certificate</label
+                              >
+                              <textarea
+                                class="form-control form-control-solid textarea-edu-cert font-14"
+                                placeholder="Enter the description of education certificate"
+                              ></textarea>
+                            </div> -->
                             <div class="mb-3 d-flex flex-column">
                               <label class="font-16 form-label font-bold-700"
                                 >Description Name Of Education</label
                               >
                               <textarea
-                                class="form-control textarea-edu font-14"
+                                class="form-control form-control-solid textarea-edu font-14"
                                 placeholder="Enter the description of education"
-                              ></textarea>
-                            </div>
-                            <div class="mb-3 d-flex flex-column">
-                              <label class="font-16 form-label font-bold-700"
-                                >Description For Education Certificate</label
-                              >
-                              <textarea
-                                class="form-control textarea-edu-cert font-14"
-                                placeholder="Enter the description of education certificate"
                               ></textarea>
                             </div>
                             <div
                               class="form-check font-bold-700 d-flex align-items-center"
                               style="font-size: xx-small"
                             >
+                              <style></style>
                               <input
                                 class="form-check-input"
                                 type="checkbox"
@@ -3563,6 +3143,17 @@ License: For each use you must have a valid license purchased only from above li
                             </div>
                           </div>
                         </div>
+                        <div class="col-sm-12 col-lg-6">
+                          <div class="mb-3 d-flex flex-column">
+                            <label class="font-16 form-label font-bold-700"
+                              >Description For Education Certificate</label
+                            >
+                            <textarea
+                              class="form-control form-control-solid textarea-edu-cert font-14"
+                              placeholder="Enter the description of education certificate"
+                            ></textarea>
+                          </div>
+                        </div>
                         <div class="col-sm-12 col-lg-12">
                           <div class="row">
                             <div class="col-12 col-md-6">
@@ -3575,7 +3166,7 @@ License: For each use you must have a valid license purchased only from above li
                                     >
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      class="form-control form-control-solid"
                                       style="width: 90%"
                                       placeholder="0"
                                     />
@@ -3587,7 +3178,7 @@ License: For each use you must have a valid license purchased only from above li
                                     >
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      class="form-control form-control-solid"
                                       style="width: 90%"
                                       placeholder="0"
                                     />
@@ -3601,16 +3192,28 @@ License: For each use you must have a valid license purchased only from above li
                                   class="font-16 form-label font-bold-700 lable-h"
                                   >End Date</label
                                 >
+
                                 <div
                                   class="input-group date"
-                                  class="datepicker position-relative"
                                   data-provide="datepicker"
                                 >
                                   <input
-                                    type="date"
-                                    class="form-control"
-                                    placeholder="select date"
+                                    type="text"
+                                    size="16"
+                                    readonly=""
+                                    class="form-control form-control-solid"
                                   />
+                                  <span
+                                    class="input-group-btn"
+                                    style="background-color: #04c !important"
+                                  >
+                                    <button
+                                      class="btn default date-set"
+                                      type="button"
+                                    >
+                                      <i class="fa fa-calendar"></i>
+                                    </button>
+                                  </span>
                                 </div>
                               </div>
                             </div>
@@ -3623,19 +3226,77 @@ License: For each use you must have a valid license purchased only from above li
                                     class="font-16 form-label font-bold-700"
                                     >Select Condition</label
                                   >
+
                                   <select
-                                    class="form-select"
-                                    aria-label="Default select example"
+                                    name="language"
                                     id="select-date"
+                                    aria-label="Default select example"
+                                    data-control="select2"
+                                    data-placeholder="Select a language..."
+                                    class="form-select form-select-solid form-select-lg"
                                   >
                                     <option value="continues">continues</option>
                                     <option value="start-and-end-date">
                                       Start and end date
                                     </option>
                                   </select>
+
+                                  <script>
+                                    $(document).ready(function () {
+                                      // Initialize Select2
+                                      $("#select-date").select2({
+                                        placeholder: "Select a language...",
+                                      });
+
+                                      // Change event listener
+                                      $("#select-date").on(
+                                        "change",
+                                        function () {
+                                          console.log(
+                                            "Selected value: " + this.value
+                                          );
+                                        }
+                                      );
+                                    });
+
+                                    $(document).ready(function () {
+                                      // Initialize Select2
+                                      $("#select-date").select2({
+                                        placeholder: "Select a language...",
+                                      });
+
+                                      // Change event listener
+                                      $("#select-date").on(
+                                        "change",
+                                        function () {
+                                          var val = $(this).val();
+                                          console.log(val);
+
+                                          var continues = $("#continues");
+                                          var startAndEndDate = $(
+                                            "#start-and-end-date"
+                                          );
+
+                                          if (val === "continues") {
+                                            continues.show();
+                                            startAndEndDate.hide();
+                                          } else if (
+                                            val === "start-and-end-date"
+                                          ) {
+                                            continues.hide();
+                                            startAndEndDate.show();
+                                          } else {
+                                            continues.hide();
+                                            startAndEndDate.hide();
+                                          }
+                                        }
+                                      );
+                                    });
+                                  </script>
                                 </div>
                               </div>
                             </div>
+
                             <div class="col-12 col-md-6">
                               <!-- oneeee -->
                               <div class="date-box" id="continues">
@@ -3644,16 +3305,28 @@ License: For each use you must have a valid license purchased only from above li
                                     class="font-16 form-label font-bold-700"
                                     >Start Date</label
                                   >
+
                                   <div
                                     class="input-group date"
-                                    class="datepicker position-relative"
                                     data-provide="datepicker"
                                   >
                                     <input
-                                      type="date"
-                                      class="form-control date-input input-date"
-                                      placeholder="select date"
+                                      type="text"
+                                      size="16"
+                                      readonly=""
+                                      class="form-control form-control-solid"
                                     />
+                                    <span
+                                      class="input-group-btn"
+                                      style="background-color: #04c !important"
+                                    >
+                                      <button
+                                        class="btn default date-set"
+                                        type="button"
+                                      >
+                                        <i class="fa fa-calendar"></i>
+                                      </button>
+                                    </span>
                                   </div>
                                 </div>
                               </div>
@@ -3670,16 +3343,30 @@ License: For each use you must have a valid license purchased only from above li
                                         class="font-16 form-label font-bold-700"
                                         >Start Date</label
                                       >
+
                                       <div
                                         class="input-group date"
-                                        class="datepicker position-relative"
                                         data-provide="datepicker"
                                       >
                                         <input
-                                          type="date"
-                                          class="form-control date-input input-date"
-                                          placeholder="select date"
+                                          type="text"
+                                          size="16"
+                                          readonly=""
+                                          class="form-control form-control-solid"
                                         />
+                                        <span
+                                          class="input-group-btn"
+                                          style="
+                                            background-color: #04c !important;
+                                          "
+                                        >
+                                          <button
+                                            class="btn default date-set"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-calendar"></i>
+                                          </button>
+                                        </span>
                                       </div>
                                     </div>
                                   </div>
@@ -3689,16 +3376,30 @@ License: For each use you must have a valid license purchased only from above li
                                         class="font-16 form-label font-bold-700"
                                         >End Date</label
                                       >
+
                                       <div
                                         class="input-group date"
-                                        class="datepicker position-relative"
                                         data-provide="datepicker"
                                       >
                                         <input
-                                          type="date"
-                                          class="form-control date-input input-date"
-                                          placeholder="select date"
+                                          type="text"
+                                          size="16"
+                                          readonly=""
+                                          class="form-control form-control-solid"
                                         />
+                                        <span
+                                          class="input-group-btn"
+                                          style="
+                                            background-color: #04c !important;
+                                          "
+                                        >
+                                          <button
+                                            class="btn default date-set"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-calendar"></i>
+                                          </button>
+                                        </span>
                                       </div>
                                     </div>
                                   </div>
@@ -3706,39 +3407,6 @@ License: For each use you must have a valid license purchased only from above li
                               </div>
                             </div>
                           </div>
-
-                          <script>
-                            document.addEventListener(
-                              "DOMContentLoaded",
-                              function () {
-                                document
-                                  .getElementById("select-date")
-                                  .addEventListener("change", function () {
-                                    var val =
-                                      document.getElementById(
-                                        "select-date"
-                                      ).value;
-                                    var continues =
-                                      document.getElementById("continues");
-                                    var startAndEndDate =
-                                      document.getElementById(
-                                        "start-and-end-date"
-                                      );
-
-                                    if (val === "continues") {
-                                      continues.style.display = "block";
-                                      startAndEndDate.style.display = "none";
-                                    } else if (val === "start-and-end-date") {
-                                      continues.style.display = "none";
-                                      startAndEndDate.style.display = "block";
-                                    } else {
-                                      continues.style.display = "none";
-                                      startAndEndDate.style.display = "none";
-                                    }
-                                  });
-                              }
-                            );
-                          </script>
 
                           <div class="row">
                             <div class="col-12 col-md-6">
@@ -3750,7 +3418,7 @@ License: For each use you must have a valid license purchased only from above li
                                   >
                                   <input
                                     type="text"
-                                    class="form-control"
+                                    class="form-control form-control-solid"
                                     placeholder="30 days"
                                   />
                                 </div>
@@ -3764,20 +3432,19 @@ License: For each use you must have a valid license purchased only from above li
                                     >Status</label
                                   >
                                   <select
-                                    class="form-select"
-                                    aria-label="Default select example"
-                                    onchange="this.className=this.options[this.selectedIndex].className"
+                                    name="language"
+                                    aria-label="Select a Language"
+                                    data-control="select2"
+                                    data-placeholder="Select a language..."
+                                    class="form-select form-select-solid form-select-lg"
                                   >
-                                    <option
-                                      selected
-                                      value="Active"
-                                      class="select_active"
-                                    >
+                                    <option value="">Select Status</option>
+                                    <option data-kt-flag="Active" value="zh-tw">
                                       Active
                                     </option>
                                     <option
-                                      value="Inactive"
-                                      class="select_inactive"
+                                      data-kt-flag="Inactive"
+                                      value="zh-tw"
                                     >
                                       Inactive
                                     </option>
@@ -3800,7 +3467,7 @@ License: For each use you must have a valid license purchased only from above li
                                       <input
                                         id="discount"
                                         type="text"
-                                        class="form-control"
+                                        class="form-control form-control-solid"
                                         style="width: 90%"
                                         placeholder="0"
                                       />
@@ -3811,13 +3478,24 @@ License: For each use you must have a valid license purchased only from above li
                                         >Percent (%)</label
                                       >
                                       <select
-                                        class="form-select"
-                                        aria-label="Default select example"
-                                        style="width: 90%"
-                                        id="percent"
+                                        name="language"
+                                        aria-label="Select a Language"
+                                        data-control="select2"
+                                        data-placeholder="Select a language..."
+                                        class="form-select form-select-solid form-select-lg"
                                       >
-                                        <option selected value="5%">5%</option>
-                                        <option value="10%">10%</option>
+                                        <option
+                                          data-kt-flag="Active"
+                                          value="5%"
+                                        >
+                                          5%
+                                        </option>
+                                        <option
+                                          data-kt-flag="Inactive"
+                                          value="10%"
+                                        >
+                                          10%
+                                        </option>
                                       </select>
                                     </div>
                                   </div>
@@ -3833,17 +3511,30 @@ License: For each use you must have a valid license purchased only from above li
                                           class="font-16 form-label font-bold-700 lable-h"
                                           >End date for discount</label
                                         >
+
                                         <div
                                           class="input-group date"
-                                          class="datepicker position-relative"
                                           data-provide="datepicker"
                                         >
                                           <input
-                                            type="date"
-                                            class="form-control"
-                                            placeholder="select date"
-                                            id="date"
+                                            type="text"
+                                            size="16"
+                                            readonly=""
+                                            class="form-control form-control-solid"
                                           />
+                                          <span
+                                            class="input-group-btn"
+                                            style="
+                                              background-color: #04c !important;
+                                            "
+                                          >
+                                            <button
+                                              class="btn default date-set"
+                                              type="button"
+                                            >
+                                              <i class="fa fa-calendar"></i>
+                                            </button>
+                                          </span>
                                         </div>
                                       </div>
                                     </div>
@@ -3877,14 +3568,29 @@ License: For each use you must have a valid license purchased only from above li
                                       class="font-16 form-label font-bold-700"
                                       >Publish to</label
                                     >
+
                                     <select
-                                      class="form-select"
-                                      aria-label="Default select example"
+                                      name="language"
+                                      aria-label="Select a Language"
+                                      data-control="select2"
+                                      data-placeholder="Select a language..."
+                                      class="form-select form-select-solid form-select-lg"
                                     >
-                                      <option selected>All</option>
-                                      <option value="1">One</option>
-                                      <option value="2">Two</option>
-                                      <option value="3">Three</option>
+                                      <option data-kt-flag="All" selected>
+                                        All
+                                      </option>
+                                      <option data-kt-flag="One" value="One">
+                                        One
+                                      </option>
+                                      <option data-kt-flag="Two" value="Two">
+                                        Two
+                                      </option>
+                                      <option
+                                        data-kt-flag="Three"
+                                        value="Three"
+                                      >
+                                        Three
+                                      </option>
                                     </select>
                                   </div>
                                 </div>
@@ -3910,7 +3616,7 @@ License: For each use you must have a valid license purchased only from above li
                                       >Educational image</label
                                     >
                                     <div
-                                      class="upload-btn-wrapper"
+                                      class="upload-btn-wrapper form-control form-control-solid"
                                       id="openModal"
                                     >
                                       <input
@@ -3924,7 +3630,7 @@ License: For each use you must have a valid license purchased only from above li
                                         class="btn d-flex align-items-center justify-content-between m-0 w-100 flex-column-reverse btn-file"
                                       >
                                         <span
-                                          class="d-flex align-items-center font-12 t-b-gray-1 m-0 text-black"
+                                          class="d-flex align-items-center font-12 t-b-gray-1 m-0 "
                                           >Drag and drop here<br />
                                           or<br />
                                           Browse file
@@ -3944,7 +3650,7 @@ License: For each use you must have a valid license purchased only from above li
                                       class="font-16 form-label font-bold-700"
                                       >Course material</label
                                     >
-                                    <div class="upload-btn-wrapper">
+                                    <div class="upload-btn-wrapper form-control form-control-solid">
                                       <input
                                         type="file"
                                         name="file-1[]"
@@ -3958,7 +3664,7 @@ License: For each use you must have a valid license purchased only from above li
                                         class="btn d-flex align-items-center justify-content-between m-0 w-100 flex-column-reverse btn-file"
                                       >
                                         <span
-                                          class="d-flex align-items-center font-12 t-b-gray-1 m-0 text-black"
+                                          class="d-flex align-items-center font-12 t-b-gray-1 m-0 "
                                           >Upload file
                                         </span>
                                         <img
@@ -3971,11 +3677,11 @@ License: For each use you must have a valid license purchased only from above li
                               </div>
                             </div>
                           </div>
-                          <div class="d-flex justify-content-end my-4">
-                            <button class="btn font-12 save-btn">
+                          <div class="d-flex justify-content-end my-4 gap-3">
+                            <button class="btn font-12 btn-success">
                               Save data
                             </button>
-                            <button class="btn font-12 delete-btn">
+                            <button class="btn font-12 btn-danger">
                               Delete Education
                             </button>
                           </div>
@@ -5419,7 +5125,7 @@ License: For each use you must have a valid license purchased only from above li
         <div class="card-footer pt-4" id="kt_drawer_chat_messenger_footer">
           <!--begin::Input-->
           <textarea
-            class="form-control form-control-flush mb-3"
+            class="form-control form-control-solid form-control-flush mb-3"
             rows="1"
             data-kt-element="input"
             placeholder="Type a message"
@@ -6859,7 +6565,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--begin::Input-->
                         <input
                           type="text"
-                          class="form-control form-control-lg form-control-solid"
+                          class="form-control form-control-solid form-control-lg form-control-solid"
                           name="name"
                           placeholder=""
                           value=""
@@ -7233,7 +6939,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--begin::Input-->
                         <input
                           type="text"
-                          class="form-control form-control-lg form-control-solid"
+                          class="form-control form-control-solid form-control-lg form-control-solid"
                           name="dbname"
                           placeholder=""
                           value="master_db"
@@ -7418,7 +7124,7 @@ License: For each use you must have a valid license purchased only from above li
                         <!--end::Label-->
                         <input
                           type="text"
-                          class="form-control form-control-solid"
+                          class="form-control form-control-solid form-control-solid"
                           placeholder=""
                           name="card_name"
                           value="Max Doe"
@@ -7437,7 +7143,7 @@ License: For each use you must have a valid license purchased only from above li
                           <!--begin::Input-->
                           <input
                             type="text"
-                            class="form-control form-control-solid"
+                            class="form-control form-control-solid form-control-solid"
                             placeholder="Enter card number"
                             name="card_number"
                             value="4111 1111 1111 1111"
@@ -7560,7 +7266,7 @@ License: For each use you must have a valid license purchased only from above li
                             <!--begin::Input-->
                             <input
                               type="text"
-                              class="form-control form-control-solid"
+                              class="form-control form-control-solid form-control-solid"
                               minlength="3"
                               maxlength="4"
                               placeholder="CVV"
@@ -8446,7 +8152,7 @@ License: For each use you must have a valid license purchased only from above li
                 <!--begin::Input-->
                 <input
                   type="text"
-                  class="form-control form-control-lg form-control-solid px-15"
+                  class="form-control form-control-solid form-control-lg form-control-solid px-15"
                   name="search"
                   value=""
                   placeholder="Search by username, full name or email..."
@@ -9792,7 +9498,7 @@ License: For each use you must have a valid license purchased only from above li
             <!--end::Separator-->
             <!--begin::Textarea-->
             <textarea
-              class="form-control form-control-solid mb-8"
+              class="form-control form-control-solid form-control-solid mb-8"
               rows="3"
               placeholder="Type or paste emails here"
             ></textarea>
@@ -10669,7 +10375,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--begin::Input-->
                     <input
                       type="text"
-                      class="form-control form-control-solid"
+                      class="form-control form-control-solid form-control-solid"
                       placeholder=""
                       name="user_name"
                     />
@@ -10686,7 +10392,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--begin::Input-->
                     <input
                       type="text"
-                      class="form-control form-control-solid"
+                      class="form-control form-control-solid form-control-solid"
                       placeholder=""
                       name="vehicle_type"
                     />
@@ -10705,7 +10411,7 @@ License: For each use you must have a valid license purchased only from above li
                   <!--begin::Input-->
                   <input
                     type="email"
-                    class="form-control form-control-solid"
+                    class="form-control form-control-solid form-control-solid"
                     placeholder=""
                     name="email"
                   />
@@ -10722,7 +10428,7 @@ License: For each use you must have a valid license purchased only from above li
                   <!--begin::Input-->
                   <input
                     type="number"
-                    class="form-control form-control-solid"
+                    class="form-control form-control-solid form-control-solid"
                     placeholder=""
                     name=""
                   />
@@ -10739,7 +10445,7 @@ License: For each use you must have a valid license purchased only from above li
                   <!--begin::Input-->
                   <input
                     type="date"
-                    class="form-control form-control-solid"
+                    class="form-control form-control-solid form-control-solid"
                     placeholder=""
                     name="address2"
                   />
@@ -10756,7 +10462,7 @@ License: For each use you must have a valid license purchased only from above li
                   <!--begin::Input-->
                   <input
                     type="time"
-                    class="form-control form-control-solid"
+                    class="form-control form-control-solid form-control-solid"
                     placeholder=""
                     name="address2"
                   />
@@ -10834,19 +10540,15 @@ License: For each use you must have a valid license purchased only from above li
               />
             </div>
             <div
-              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
-              aria-label="Close"
-              onclick="getVideoSrc(this)"
-            >
-              <video controls>
-                <source
-                  src="../../SystemEducation/assets/media/imgs/video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              src="../../SystemEducation/assets/media/imgs/upload.svg"
+              onclick="getImgSrc(this)"
+            />
+          </div>
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
@@ -10870,19 +10572,15 @@ License: For each use you must have a valid license purchased only from above li
               />
             </div>
             <div
-              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
-              aria-label="Close"
-              onclick="getVideoSrc(this)"
-            >
-              <video controls>
-                <source
-                  src="../../SystemEducation/assets/media/imgs/video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              src="../../SystemEducation/assets/media/imgs/upload.svg"
+              onclick="getImgSrc(this)"
+            />
+          </div>
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
@@ -10906,23 +10604,29 @@ License: For each use you must have a valid license purchased only from above li
               />
             </div>
             <div
-              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
-              data-dismiss="modal"
-              aria-label="Close"
-              onclick="getVideoSrc(this)"
-            >
-              <video controls>
-                <source
-                  src="../../SystemEducation/assets/media/imgs/video.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              src="../../SystemEducation/assets/media/imgs/upload.svg"
+              onclick="getImgSrc(this)"
+            />
+          </div>
+            <div
+            class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <img
+              src="../../SystemEducation/assets/media/imgs/picture.svg"
+              onclick="getImgSrc(this)"
+            />
+          </div>
             <!-- </div> -->
           </div>
           <div class="modal-footer d-flex justify-content-center">
-            <button type="button" class="btn colse-footer" data-dismiss="modal">
+            <button type="button" class="btn colse-footers btn-primary" id="close-footers" data-dismiss="modal">
               Close
             </button>
           </div>
@@ -10931,6 +10635,8 @@ License: For each use you must have a valid license purchased only from above li
     </div>
 
     <script src="../../SystemEducation/assets/js/education/eduction.js"></script>
+
+    <script></script>
 
     <!--end::Modal - New Address-->
   </body>
