@@ -88,19 +88,7 @@ function getVideoSrc1(param){
   };
 
 
-
-  $(document).ready(function() {
-    // Initialize the datepicker
-
-
-    // Show datepicker on button click
-    $('.input-group-btn .date-set').click(function() {
-      $(this).closest('.input-group').find('input').focus();
-    });
-  });
-
-
-
+  
   $(document).ready(function() {
     var pathname = window.location.pathname;
     // Get the links elements
@@ -205,3 +193,12 @@ function updateFileName() {
 
   span.textContent = fileName || 'Upload file';
 }
+// Assuming you have jQuery for simplicity
+$('.date-inp').on('change', function() {
+  $('.datepicker').hide();
+});
+$(document).ready(function() {
+  if ($('html').attr('data-bs-theme') === 'light') {
+      $('#kt_app_wrapper').css('background-color', '#eee');
+  }
+});

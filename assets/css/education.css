@@ -1,242 +1,220 @@
+.px-80 {
+  padding: 0 80px;
+}
 
-  .px-80 {
-    padding: 0 80px;
-  }
-  
-  iframe {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    height: 170px;
-  }
-  
-  .card-text {
-    margin-bottom: 10px !important;
-  }
-  
-  .icon {
-    margin-right: 15px;
-  }
-  
-  .icon img {
-    margin-right: 4px;
-  }
-  
+iframe {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 170px;
+}
 
+.card-text {
+  margin-bottom: 10px !important;
+}
 
-  
-  .form-check-input:checked[type=checkbox] {
-    background-image: url(../../assets/media/imgs/check.svg);
-  }
-  
+.icon {
+  margin-right: 15px;
+}
 
-  .form-check-input {
-    height: 15px;
-    width: 15px;
-    margin-right: 10px;
-  }
-  
-  .h-25px {
-    height: 25px;
-  }
-  
-  /*  custom button */
-  .upload-btn-wrapper,
-  .upload-btn-wrapper-row {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-  }
-  
-  
-  .upload-btn-wrapper input[type=file],
-  .upload-btn-wrapper-row input[type=file] {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-  }
-  
-  .upload-btn-wrapper label {
-    padding: 0 1rem;
-    margin: 0;
-    margin-bottom: 10px;
-  }
-  
-  .upload-btn-wrapper p {
-    text-align: center;
-    line-height: 1;
-  }
-  
-  /* form */
-  .form-add-course {
-    min-height: 687px;
-    padding: 1.5em;
-    margin: 2rem 0;
-  }
-  
+.icon img {
+  margin-right: 4px;
+}
 
-  
-  /* .education form input[type='text']
+.form-check-input:checked[type="checkbox"] {
+  background-image: url(../../assets/media/imgs/check.svg);
+}
+
+.form-check-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.h-25px {
+  height: 25px;
+}
+
+/*  custom button */
+.upload-btn-wrapper,
+.upload-btn-wrapper-row {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type="file"],
+.upload-btn-wrapper-row input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-btn-wrapper label {
+  padding: 0 1rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.upload-btn-wrapper p {
+  text-align: center;
+  line-height: 1;
+}
+
+/* form */
+.form-add-course {
+  min-height: 687px;
+  padding: 1.5em;
+  margin: 2rem 0;
+}
+
+/* .education form input[type='text']
   {
     height: 40px;
   } */
-  /* .education form .textarea-edu
+/* .education form .textarea-edu
   {
     height: 150px !important;
   } */
 .textarea-edu-cert {
-    height: 242px !important;
-  }
-  
-
-  .upload-btn-wrapper,
-  .upload-btn-wrapper-row {
-    border: 1px dashed #707070;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 136px;
-  }
-  
-  .upload-btn-wrapper-row {
-    flex-direction: row !important;
-    height: 40px;
-  }
-  
-  .upload-btn-wrapper-row img {
-    height: 22px;
-  }
-  
-  /* add course */
-  .list-group {
-    background: #F3F2F7;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 5px;
-  }
-  
-  .list-group-item {
-
-    padding: 1rem;
-  }
-  
-  .pr-0 {
-    padding-right: 0 !important;
-  }
-  
-  .pl-0 {
-    padding-left: 0 !important;
-  }
-  
-  #addExam .active {
-  }
-  
-  #addExam i {
-    margin: 6px;
-  }
-  
-
-  
-  /* edit video */
-  .position {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
-  
-  select:focus {
-  }
-  
-  .btn-file:hover {
-  }
-  
-  #handle_question {
-    display: none;
-  }
-  
-  .group-check-input {
-    height: 40px !important;
-  }
-  
-  .container-check {
-    border: none;
-    padding-right: 0px !important;
-  }
-  
-  .container-delete {
-    border: none;
-  }.textarea-edu {
-    height: 150px !important;
+  height: 130px !important;
 }
-  
-  .container-delete i {
-    font-size: 11px;
-    padding: 8px;
-  }
-  
-  .group-check-input .form-control {
-    border: none;
-    height: 100% !important;
-  }
-  
-  
-  
-  /* modal */
-  .modal-dialog .close {
-    border: none;
-    font-size: 2rem;
-    border-radius: 10px;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-dialog .colse-footer {
-    border: 1px solid #29A4D2 !important;
-  }
-  .container-img img,
-  .container-img video
-  {
-    width: 100%;
-    height: 250px;
-    object-fit: contain;
-    padding: 10px;
-  }
-  .create-edu .modal-dialog
-  {
-    max-width: 1300px !important;
-  }
-  .cancel
-  {
-    height: 40px;
-  }
 
-  .cancel i 
-  {
-    padding: 8px;
-  }
-  #add-box .p-3
-  {
-    padding: 0 1rem !important;
-    display: flex;
-    align-items: center;
-    height: 40px;
-  }
-  .upload
-  {
-    height: 80px;
-  }
-  .m-t-2
-  {
-    margin-top: 2.2rem;
-  }
+.upload-btn-wrapper,
+.upload-btn-wrapper-row {
+  border: 1px dashed #707070;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+}
 
+.upload-btn-wrapper-row {
+  flex-direction: row !important;
+  height: 40px;
+}
 
+.upload-btn-wrapper-row img {
+  height: 22px;
+}
 
-.left-side > div > div{
-    margin-bottom: 20px !important;
+/* add course */
+.list-group {
+  background: #f3f2f7;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  padding: 1rem;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+#addExam .active {
+}
+
+#addExam i {
+  margin: 6px;
+}
+
+/* edit video */
+.position {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+select:focus {
+}
+
+.btn-file:hover {
+}
+
+#handle_question {
+  display: none;
+}
+
+.group-check-input {
+  height: 40px !important;
+}
+
+.container-check {
+  border: none;
+  padding-right: 0px !important;
+}
+
+.container-delete {
+  border: none;
+}
+.textarea-edu {
+  height: 130px !important;
+}
+
+.container-delete i {
+  font-size: 11px;
+  padding: 8px;
+}
+
+.group-check-input .form-control {
+  border: none;
+  height: 100% !important;
+}
+
+/* modal */
+.modal-dialog .close {
+  border: none;
+  font-size: 2rem;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog .colse-footer {
+  border: 1px solid #29a4d2 !important;
+}
+.container-img img,
+.container-img video {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  padding: 10px;
+}
+.create-edu .modal-dialog {
+  max-width: 1300px !important;
+}
+.cancel {
+  height: 40px;
+}
+
+.cancel i {
+  padding: 8px;
+}
+#add-box .p-3 {
+  padding: 0 1rem !important;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.upload {
+  height: 80px;
+}
+.m-t-2 {
+  margin-top: 2.2rem;
+}
+
+.left-side > div > div {
+  margin-bottom: 20px !important;
 }
 
 .save-btn,
@@ -246,22 +224,23 @@
 .gray-btn,
 .create-btn,
 .go-back-btn {
-  background: #29D26D;
+  background: #29d26d;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 6px;
-  padding: .5rem 3rem;
+  padding: 0.5rem 3rem;
   height: 35px;
   margin-right: 15px;
 }
 
 .delete-btn {
-  border: 1px solid #F31937;
-  padding: .5rem 1.5rem;
-  background-color: #F31937;
+  border: 1px solid #f31937;
+  padding: 0.5rem 1.5rem;
+  background-color: #f31937;
 }
-.select2-search__field{
+.select2-search__field {
   display: none !important;
-}                               .form-check-input {
+}
+.form-check-input {
   position: relative;
   width: 20px;
   height: 20px;
@@ -277,30 +256,34 @@
   background-color: #000; /* Black background when checked */
 }
 
-    .active-link {
-        background: linear-gradient(to right, #011c2c, #033a5a, #0a5b89, #248cc9) !important;
-        border-radius: 17px;
-    }
-
-
-
-    /* 
+.active-link {
+  background: linear-gradient(
+    to right,
+    #011c2c,
+    #033a5a,
+    #0a5b89,
+    #248cc9
+  ) !important;
+  border-radius: 17px;
+}
+.app-main {
+  margin-top: 30px !important;
+}
+/* 
     
     */
 
-    
- #img-card {
-  display: flex;
-  justify-content: center;
+#img-card {
   align-items: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
   margin: 20px auto;
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 214px;
 }
 
 #img-card:hover {
@@ -310,7 +293,19 @@
 
 /* Image styling */
 #main-image {
-  max-width: 100%;
-  height: auto;
   border-radius: 10px;
+  width: 124px !important;
+  height: 181px !important;
+}
+.dashCards {
+  border: solid rgb(205, 205, 205) 2px;
+}
+.dashCards:hover {
+  transform: scale(1.05);
+}
+.date-icon {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -41,13 +41,14 @@ License: For each use you must have a valid license purchased only from above li
       rel="shortcut icon"
       href="../../SystemEducation/assets/media/logos/favicon.ico"
     />
+    <!--end::Vendor Stylesheets-->
+    <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <!--begin::Fonts(mandatory for all pages)-->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"
     />
-    <!--end::Fonts-->
-    <!--begin::Vendor Stylesheets(used for this page only)-->
+
     <link
       href="../../SystemEducation/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css"
       rel="stylesheet"
@@ -58,8 +59,7 @@ License: For each use you must have a valid license purchased only from above li
       rel="stylesheet"
       type="text/css"
     />
-    <!--end::Vendor Stylesheets-->
-    <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
+
     <link
       href="../../SystemEducation/assets/plugins/global/plugins.bundle.css"
       rel="stylesheet"
@@ -78,6 +78,7 @@ License: For each use you must have a valid license purchased only from above li
   </head>
   <!--end::Head-->
   <!--begin::Body-->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link
     rel="stylesheet"
@@ -3064,7 +3065,7 @@ License: For each use you must have a valid license purchased only from above li
         </div> -->
           <div
             class="app-main flex-column flex-row-fluid"
-            style="margin-top: 50px"
+            style="margin-top: 20px"
             id="kt_app_main"
           >
             <div id="kt_app_content" class="app-content flex-column-fluid">
@@ -3086,12 +3087,14 @@ License: For each use you must have a valid license purchased only from above li
                   />
 
                   <div class="card-body pt-5" style="padding: 15px">
-                    <form class="form-add-course">
+                    <form class="form-add-course mt-0">
                       <div class="d-flex justify-content-between mb-3">
                         <div class="d-flex align-items-center">
                           <h4>Create Education</h4>
                         </div>
-                        <div class="btn btn-primary">Add Course / Exam</div>
+                        <div class="btn btn-primary" style="margin-top: -13px">
+                          Add Course / Exam
+                        </div>
                       </div>
                       <hr style="color: inherit" />
                       <div
@@ -3122,6 +3125,15 @@ License: For each use you must have a valid license purchased only from above li
                             </div> -->
                             <div class="mb-3 d-flex flex-column">
                               <label class="font-16 form-label font-bold-700"
+                                >Description For Education Certificate</label
+                              >
+                              <textarea
+                                class="form-control form-control-solid textarea-edu-cert font-14"
+                                placeholder="Enter the description of education certificate"
+                              ></textarea>
+                            </div>
+                            <div class="mb-3 d-flex flex-column">
+                              <label class="font-16 form-label font-bold-700"
                                 >Description Name Of Education</label
                               >
                               <textarea
@@ -3139,11 +3151,11 @@ License: For each use you must have a valid license purchased only from above li
                                 type="checkbox"
                                 value=""
                                 id="flexCheckChecked"
-                                checked
                               />
                               <label
-                                class="font-12 form-check-label h-25px"
+                                class="form-check-label d-flex align-items-center"
                                 for="flexCheckChecked"
+                                style="font-size: 12px"
                               >
                                 the participants in this training must be able
                                 to see the right and wrong answers afterwards
@@ -3151,18 +3163,8 @@ License: For each use you must have a valid license purchased only from above li
                             </div>
                           </div>
                         </div>
+
                         <div class="col-sm-12 col-lg-6">
-                          <div class="mb-3 d-flex flex-column">
-                            <label class="font-16 form-label font-bold-700"
-                              >Description For Education Certificate</label
-                            >
-                            <textarea
-                              class="form-control form-control-solid textarea-edu-cert font-14"
-                              placeholder="Enter the description of education certificate"
-                            ></textarea>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-12">
                           <div class="row">
                             <div class="col-12 col-md-6">
                               <div>
@@ -3209,15 +3211,20 @@ License: For each use you must have a valid license purchased only from above li
                                     type="text"
                                     size="16"
                                     readonly=""
-                                    class="form-control form-control-solid"
+                                    class="form-control form-control-solid date-inp"
                                   />
-                                  <span class="input-group-btn bg-primary">
+
+                                  <span
+                                    class="input-group-btn bg-primary date-icon"
+                                  >
                                     <button
                                       class="btn default date-set"
                                       type="button"
                                     >
-                                    <i class="ki-outline ki-calendar-8  fs-2 text-black"></i>
-                                  </button>
+                                      <i
+                                        class="ki-outline ki-calendar-8 fs-2 text-black"
+                                      ></i>
+                                    </button>
                                   </span>
                                 </div>
                               </div>
@@ -3319,14 +3326,18 @@ License: For each use you must have a valid license purchased only from above li
                                       type="text"
                                       size="16"
                                       readonly=""
-                                      class="form-control form-control-solid"
+                                      class="form-control form-control-solid date-inp"
                                     />
-                                    <span class="input-group-btn bg-primary">
+                                    <span
+                                      class="input-group-btn bg-primary date-icon"
+                                    >
                                       <button
                                         class="btn default date-set"
                                         type="button"
                                       >
-                                      <i class="ki-outline ki-calendar-8  fs-2 text-black"></i>
+                                        <i
+                                          class="ki-outline ki-calendar-8 fs-2 text-black"
+                                        ></i>
                                       </button>
                                     </span>
                                   </div>
@@ -3354,18 +3365,17 @@ License: For each use you must have a valid license purchased only from above li
                                           type="text"
                                           size="16"
                                           readonly=""
-                                          class="form-control form-control-solid"
+                                          class="form-control form-control-solid date-inp"
                                         />
-                                        <span
-                                          class="input-group-btn"
-                                        
-                                        >
-                                        <!-- hereee -->
+                                        <span class="input-group-btn date-icon">
+                                          <!-- hereee -->
                                           <button
                                             class="btn default date-set"
                                             type="button"
                                           >
-                                      <i class="ki-outline ki-calendar-8  fs-2 text-black"></i>
+                                            <i
+                                              class="ki-outline ki-calendar-8 fs-2 text-black"
+                                            ></i>
                                           </button>
                                         </span>
                                       </div>
@@ -3386,18 +3396,19 @@ License: For each use you must have a valid license purchased only from above li
                                           type="text"
                                           size="16"
                                           readonly=""
-                                          class="form-control form-control-solid"
+                                          class="form-control form-control-solid date-inp"
                                         />
                                         <span
-                                          class="input-group-btn bg-primary"
-                                        
+                                          class="input-group-btn bg-primary date-icon"
                                         >
-                                        <!-- hereee -->
+                                          <!-- hereee -->
                                           <button
                                             class="btn default date-set"
                                             type="button"
                                           >
-                                      <i class="ki-outline ki-calendar-8  fs-2 text-black"></i>
+                                            <i
+                                              class="ki-outline ki-calendar-8 fs-2 text-black"
+                                            ></i>
                                           </button>
                                         </span>
                                       </div>
@@ -3520,17 +3531,19 @@ License: For each use you must have a valid license purchased only from above li
                                             type="text"
                                             size="16"
                                             readonly=""
-                                            class="form-control form-control-solid"
+                                            class="form-control form-control-solid date-inp"
                                           />
                                           <span
-                                            class="input-group-btn bg-primary"
+                                            class="input-group-btn bg-primary date-icon"
                                           >
                                             <button
                                               class="btn default date-set"
                                               type="button"
                                             >
-                                            <i class="ki-outline ki-calendar-8  fs-2 text-black"></i>
-                                          </button>
+                                              <i
+                                                class="ki-outline ki-calendar-8 fs-2 text-black"
+                                              ></i>
+                                            </button>
                                           </span>
                                         </div>
                                       </div>
@@ -3680,10 +3693,10 @@ License: For each use you must have a valid license purchased only from above li
                             </div>
                           </div>
                           <div class="d-flex justify-content-end my-4 gap-3">
-                            <button class="btn font-12 btn-success">
+                            <button class="btn font-12 btn-primary">
                               Save data
                             </button>
-                            <button class="btn font-12 btn-danger">
+                            <button class="btn font-12 btn-secondary">
                               Delete Education
                             </button>
                           </div>
@@ -10288,11 +10301,7 @@ License: For each use you must have a valid license purchased only from above li
       var hostUrl = "../../SystemEducation/assets/";
     </script>
     <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-    <script src="../../SystemEducation/assets/plugins/global/plugins.bundle.js"></script>
-    <script src="../../SystemEducation/assets/js/scripts.bundle.js"></script>
-    <!--end::Global Javascript Bundle-->
-    <!--begin::Vendors Javascript(used for this page only)-->
-    <script src="../../SystemEducation/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+    <script src="../../SystemEducation/assets/js/scripts.bundle.js"></script>    <script src="../../SystemEducation/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -10304,15 +10313,14 @@ License: For each use you must have a valid license purchased only from above li
     <script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-    <script src="../../SystemEducation/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-    <!--end::Vendors Javascript-->
-    <!--begin::Custom Javascript(used for this page only)-->
     <script src="../../SystemEducation/assets/js/widgets.bundle.js"></script>
     <script src="../../SystemEducation/assets/js/custom/widgets.js"></script>
     <script src="../../SystemEducation/assets/js/custom/apps/chat/chat.js"></script>
-    <script src="../../SystemEducation/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-    <script src="../../SystemEducation/assets/js/custom/utilities/modals/create-app.js"></script>
     <script src="../../SystemEducation/assets/js/custom/utilities/modals/users-search.js"></script>
+    <!--end::Global Javascript Bundle-->
+    <!--begin::Vendors Javascript(used for this page only)-->
+
+
 
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
@@ -10530,7 +10538,43 @@ License: For each use you must have a valid license purchased only from above li
             </button>
           </div>
           <div class="modal-body d-flex flex-wrap">
-            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <!-- <div class="col-12 col-md-6 col-lg-4"> -->
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              id="img-card"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/upload.svg"
+                onclick="getImgSrc(this)"
+                id="main-image"
+              />
+            </div>
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              id="img-card"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/upload.svg"
+                onclick="getImgSrc(this)"
+                id="main-image"
+              />
+            </div>
+            <div
+              class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
+              data-dismiss="modal"
+              id="img-card"
+              aria-label="Close"
+            >
+              <img
+                src="../../SystemEducation/assets/media/imgs/upload.svg"
+                onclick="getImgSrc(this)"
+                id="main-image"
+              />
+            </div>
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
@@ -10568,7 +10612,7 @@ License: For each use you must have a valid license purchased only from above li
               />
             </div>
             <!-- </div> -->
-            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <!-- <div class="col-12 col-md-6 col-lg-4"> -->
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
@@ -10606,7 +10650,7 @@ License: For each use you must have a valid license purchased only from above li
               />
             </div>
             <!-- </div> -->
-            <!-- <div class=" col-12 col-md-6 col-lg-4"> -->
+            <!-- <div class="col-12 col-md-6 col-lg-4"> -->
             <div
               class="container-img d-flex justify-content-center col-12 col-sm-6 col-lg-4"
               data-dismiss="modal"
@@ -10659,11 +10703,38 @@ License: For each use you must have a valid license purchased only from above li
       </div>
     </div>
 
+    <!-- <div class="d-flex flex-center">
+      <button class="btn btn-primary" id="kt_followers_show_more_button">
+        <span class="indicator-label">Show more</span>
+        <span class="indicator-progress">Please wait...
+        <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+      </button>
+    </div> -->
+    <script>
+      $(document).ready(function () {
+        $('.input-group.date').datepicker({
+          autoclose: true
+        }).on('changeDate', function(e) {
+          $(this).datepicker('hide');
+        });
+      });
+    </script>
     <script src="../../SystemEducation/assets/js/education/eduction.js"></script>
-
-    <script></script>
-
-    <!--end::Modal - New Address-->
+    <script src="../../SystemEducation/assets/js/custom/pages/user-profile/general.js"></script>
+    <script src="../../SystemEducation/assets/js/widgets.bundle.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/widgets.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/apps/chat/chat.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/create-campaign.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/create-app.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
+    <script src="../../SystemEducation/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="../../SystemEducation/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="../../SystemEducation/assets/js/custom/apps/user-management/roles/view/view.js"></script>
+    <script src="../../SystemEducation/assets/js/widgets.bundle.js"></script>
   </body>
-  <!--end::Body-->
 </html>
