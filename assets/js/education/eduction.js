@@ -197,21 +197,21 @@ function updateFileName() {
 $('.date-inp').on('change', function() {
   $('.datepicker').hide();
 });
-$(document).ready(function() {
-  if ($('html').attr('data-bs-theme') === 'light') {
-      $('#kt_app_wrapper').css('background-color', '#eee');
-  }else{
-    $('#kt_app_wrapper').css('background-color', '#131313');
+// $(document).ready(function() {
+//   if ($('html').attr('data-bs-theme') === 'light') {
+//       $('#kt_app_wrapper').css('background-color', '#eee');
+//   }else{
+//     $('#kt_app_wrapper').css('background-color', '#131313');
 
-  }
-});
-setInterval(() => {
-  $(document).ready(function() {
-    if ($('html').attr('data-bs-theme') === 'light') {
-        $('#kt_app_wrapper').css('background-color', '#eee');
-    }else{
-      $('#kt_app_wrapper').css('background-color', '#131313');
+//   }
+// });
+// setInterval(() => {
+//   $(document).ready(function() {
+//     if ($('html').attr('data-bs-theme') === 'light') {
+//         $('#kt_app_wrapper').css('background-color', '#eee');
+//     }else{
+//       $('#kt_app_wrapper').css('background-color', '#131313');
 
-    }
-  });
-}, 10);
+//     }
+//   });
+// }, 10);
